@@ -13,32 +13,15 @@
       <link>https://liumy-lay.github.io/posts/hugo-github-pages/</link>
       <pubDate>Thu, 28 Dec 2023 20:42:30 +0800</pubDate>
       <guid>https://liumy-lay.github.io/posts/hugo-github-pages/</guid>
-      <description>前言 在几分钟内利用hugo快速发布自己的个人博客 先决条件 安装hugo(extended edition, v0.112.0 or later)
+      <description>前言 创建 GitHub 帐户
+安装git，下载对应系统版本 exe ，无脑点击下一步。
+安装hugo(extended edition, v0.112.0 or later)
 打开 Github 中的 Hugo 库，打开右边侧边栏About下面的 Realeases，下载最新的版本，本次下载为：hugo_extended_0.121.1_windows-amd64.zip
 解压后，将其中的 hugo.exe 放到指定的安装目录，比如 D:\softwares\Hugo\bin，然后将该目录添加到系统环境变量（win+R → sysdm.cpl → 高级 → 环境变量 → 系统变量 Path）的 Path 下。
 打开命令行，输入 hugo version，显示版本号即为安装成功
-安装git，下载对应系统版本 exe ，无脑一直点击下一步。
-快速开始 使用Git Bash操作以下命令建立一个PaperMod主题的hugo网站：
-hugo new site liumyblog cd liumyblog git init git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod echo &amp;#34;theme = &amp;#39;PaperMod&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.toml hugo server 通过终端中显示的 URL 查看您的站点。按此按钮Ctrl + C可停止 Hugo 的开发服务器。
-命令解释 在目录中为您的项目创建目录结构liumyblog
-hugo new site liumyblog 将当前目录更改为项目的根目录。</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>https://liumy-lay.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 28 Dec 2023 20:02:38 +0800</pubDate>
-      <guid>https://liumy-lay.github.io/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://liumy-lay.github.io/posts/hugo-settings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://liumy-lay.github.io/posts/hugo-settings/</guid>
-      <description>+++ title = &amp;lsquo;Hugo Settings&amp;rsquo; date = 2023-12-30T16:00:30+08:00 draft = true
-+++
-Hugo配置折腾日记 1.Hugo与Typora的图片存放位置设置 </description>
+在几分钟内利用hugo快速发布自己的个人博客 快速开始 使用Git Bash依次输入以下命令，即可建立预览一个PaperMod主题的hugo网站：
+hugo new site myblog cd myblog git init git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod echo &amp;#34;theme = &amp;#39;PaperMod&amp;#39;&amp;#34; &amp;gt;&amp;gt; hugo.toml hugo server 通过终端中显示的 URL 查看您的站点。按此按钮Ctrl + C可停止 Hugo 的开发服务器。
+命令解释 在目录中为您的博客创建一个以myblog命名的文件夹目录结构</description>
     </item>
   </channel>
 </rss>
